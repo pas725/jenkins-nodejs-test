@@ -8,6 +8,6 @@ describe('Tests', function() {
     it('add() should add the two vars', function() {
         var ops = new Operations();
         var addition = ops.add(5,7);
-        expect(addition).to.equal(11);
+        expect(addition).to.equal(12);
     });
 });
