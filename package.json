@@ -20,8 +20,12 @@
     "url": "https://github.com/pas725/jenkins-nodejs-test/issues"
   },
   "homepage": "https://github.com/pas725/jenkins-nodejs-test",
+  "dependencies": {
+    "amqplib" : "*"
+  },
   "devDependencies": {
-    "chai": "^3.4.0"
+    "chai": "^3.4.0",
+    "mocha":"*"
   }
 }
 
